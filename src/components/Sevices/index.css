@@ -1,0 +1,11 @@
+.service-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+}
+.services-container{
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,41 @@
+.sidebar-container{
+    width: 15%;
+    min-height: 100vh;
+    padding: 1.5rem;
+    border-right: 1px solid rgb(219, 213, 213);
+}
+.section-container{
+    margin-bottom: 1rem;
+}    
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mini-logo{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.logo-des{
+    font-size: 13px;
+}
+.section-des{
+    font-size: 14px;
+    margin-bottom: 6px;
+    padding: 0;
+}
+.services-bold{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.custom-listbox .react-spectrum-Item {
+    padding: 0; /* Remove padding from the items */
+    background: none; /* Optionally remove background */
+    border: none; /* Optionally remove border */
+    color: inherit; /* Ensure text color is inherited */
+  }

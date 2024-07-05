@@ -1,0 +1,73 @@
+.home-container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.home-data-container{
+    width: 85%;
+    padding: 1.5rem;
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.airport-head{
+    font-weight: 700;
+    font-size: 22px;
+}
+.add-btn{
+    border-width: 0px;
+    background-color: black;
+    color: #ffffff;
+    height: 90px;
+}
+.airports-container{
+    width: 100%;
+}
+.airports-head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+}
+.airports-head-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+.airports-head-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.airports-heading{
+    font-size: 14px;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.country-head{
+    font-size: 14px;
+    font-weight: bold;
+    width: 25%;
+}
+.airports-list-container{
+    border: 1px solid rgb(219, 213, 213);
+    border-radius: 8px;
+}
+.x{
+    width: 25%;
+}
